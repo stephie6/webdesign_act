@@ -1,0 +1,172 @@
+<!DOCTYPE html/>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8" />
+    <title>Registration</title>
+
+    <body style="background-color:rgb(52, 155, 150);">
+        <div class="navi" >
+            <a href="index.html" style="color:black; top:-20px; font-size: xx-large;">S.Wong</a>
+              <nav style=" float: right; margin-top:50px; margin-right: 50px; font-size:22px; word-spacing: 20px">
+                <a href="index1.html">Stats</a> 
+                <a href="index2.html"><span>Registration</span></a>
+                <a href="index3.html">Quiz App</a>
+              </nav>
+            </div>
+
+        <div class="regform" style="position:relative">
+           <h2>Student Registration Form</h2>
+                <p style="position:relative; top:-15px; width: 500">Fill out the form carefully for registration</p>
+          <div id="name">
+            <form action="registration.html">
+                <h4 class="name">Student Name</h4>
+                    <input class="firstname" type="text" name="First_Name"><br>
+                    <label class="firstlabel">First Name</label>
+                    <input class="middlename" type="text" name="Middle_Name"><br>
+                    <label class="middlelabel">Middle Name</label>
+                    <input class="lastname" type="text" name="Last_Name"><br>
+                    <label class="lastlabel">Last Name</label>
+
+                <h4 class="name">Birth Date</h4>
+                    <label class="monthlabel">Month</label>
+                    <select class="monthoption" name="Month Option">
+                       <option disabled="disabled" selected="selected"></option>
+                       <option>January</option>
+                       <option>February</option>
+                       <option>March</option>
+                       <option>April</option>
+                       <option>May</option>
+                       <option>June</option>
+                       <option>July</option>
+                       <option>August</option>
+                       <option>September</option>
+                       <option>October</option>
+                       <option>November</option>
+                       <option>December</option>
+                    </select>
+          
+                    <label class="daylabel">Day</label>
+                    <select class="dayoption" name="Day Option">
+                       <option disabled="disabled" selected="selected"></option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option> 
+                    </select>
+
+                    <label class="yearlabel">Year</label>
+                    <select class="yearoption" name="Year Option">
+                       <option disabled="disabled" selected="selected"></option>
+                       <option>1990</option>
+                       <option>1991</option>
+                       <option>1992</option>
+                       <option>1993</option>
+                       <option>1994</option>
+                       <option>1995</option>
+                       <option>1996</option>
+                       <option>1997</option>
+                       <option>1998</option>
+                       <option>1999</option>
+                       <option>2000</option>
+                       <option>2001</option>   
+                       <option>2002</option>
+                       <option>2003</option>
+                       <option>2004</option>            
+                    </select>
+    
+                <h4 class="genderlabel">Gender</h4>
+                    <select class="genderoption" name="Gender"> 
+                       <option disabled="disabled" selected="selected">Please Select</option>
+                       <option>Male</option> 
+                       <option>Female</option>
+                    </select>
+                </div>
+
+                <div>
+                <h4 class="name">Address</h4>
+                <input class="streetaddress" type="text" name="Street_Address">
+                <label class="streetaddresslabel">Street Address</label>
+      
+                <input class="streetaddressline2" type="text" name="Street_Address_Line_2">
+                <label= class="streetaddressline2label">Street Address Line 2</label>
+      
+                <input class="city" type="text" name="City">
+                <label class="citylabel">City</label>
+      
+                <input class="state" type="text" name="State/Province">
+                <label class="statelabel">State/Province</label>
+       
+                <input class="portal" type="text" name="Portal/Zip Code">
+                <label class="portallabel">Portal/ Zip Code</label>
+                </div>
+                <h4 class="name">Student E-mail</h4>
+                    <input class="studentemail" type="text" placeholder="ex:myname@example.com">
+                    <label class="studentemaillabel">example@example.com</label>
+
+                <h4 class="mobile_number">Mobile Number</h4>
+                    <input class="mobilenumber" type="text" placeholder="(000) 000-0000">
+      
+                <h4 class="namephone">Phone Number</h4>
+                    <input class="phonenumber" type="text" placeholder="(000) 000-0000">
+          
+                <h4 class="nameworknumber">Work Number</h4>
+                    <input class="worknumber" type="text" placeholder="(000) 000-0000">
+              
+                <h4 class="namecompany">Company</h4>
+                    <input class="company" type="text" name="Company">
+            
+                <h4 class="namecourses">Courses</h4>
+                    <select class="courses" name="Courses">
+                      <option disabled="disabled" selected="selected">Please Select</option>
+                      <option>BSIT</option>
+                      <option>BSCS</option>
+                      <option>BSIS</option>
+                    </select>
+        
+                <h4 class="additionalcomments">Additional Comments</h4>
+                    <textarea class="additionalcommentss" type="rext" placeholder="Type here..."></textarea>
+
+                   <input type="submit" value="Submit Application">
+                   <input type="reset" value="Clear Fields" >
+       
+            </form>
+        </div>
+             <footer style="top: 1800px">
+                <p>Follow me on Social Media</p>
+                    <nav class="icon">
+                        <a href="https://www.facebook.com/stephaniemaep.wong"><img src="imgs/9be7a031fcd2215a8827ae719d546182.jpg" alt="FB.icon" width="30" height="25" /></a>
+                        <a href="https://youtube.com/channel/UCG07lXHHGciDxu5OLoQxa0g"><img src="imgs/48968.png" alt="YT.icon" width="35" height="25" /></a>
+                        <a href="https://www.instagram.com/stephaniemaewong/"><img src="imgs/41-412755_weggle-instagram-logo-vector-white.png" alt="insta.icon" width="35" height="25" /></a>
+                    </nav>
+                <p style="float:right; top: -25px; margin-top: -70px; margin-right: 10px; ">Copyright ASM @2022</p>
+            </footer>
+     
+    </body>
+</head>

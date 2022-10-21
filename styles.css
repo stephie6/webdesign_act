@@ -1,0 +1,430 @@
+.body{
+    background-image: url(imgs/Free-Nature-Backgrounds-Seaport-During-Daytime-by-Pexels.jpeg);
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+    top: 100px;
+    opacity: 0.95;
+    }
+    
+    span{
+        color:rgb(224, 255, 139);
+    }
+    
+    .navi{
+        width: 1319px;
+        height: 88px;
+        padding: 5px;
+        background-color: rgb(156, 156, 156);
+        background-position: bottom;
+        background-size: cover;
+        text-align:left; 
+    }
+    .navig{
+        float: right; 
+        margin-top:50px; 
+        margin-right: 50px; 
+        font-size:22px; 
+        word-spacing: 20px;
+    }
+    a:visited{
+        color:black
+    }
+    
+    a:link{
+        color:rgb(209, 209, 156);
+        text-decoration: double;
+    }
+    
+    h3::first-letter{
+    font-size:xx-large;
+    font-style:initial;
+    }
+    
+    .container{
+        position:relative; 
+        top: -300px;
+        width: 680px; 
+        height:200px;  
+        margin-left: 450px; 
+        background-color: rgb(204, 228, 174); 
+        border-radius: 50px;
+        padding:20px; 
+        border: 2px solid rgb(15, 15, 13); 
+    }
+    
+    .sub{
+        position:relative; 
+        color:rgb(7, 7, 7); 
+        font-size:medium; 
+        top: -50px; 
+        margin-left: 20px;
+    }
+
+    footer{
+        position:absolute;
+        left:0;
+        width:97%;
+        top: 720px;
+        height: 30px;
+        padding:20px;
+        background-color: rgb(156, 156, 156);
+        background-position: top;
+        background-size: cover;
+        font-family: Bahnschrift;
+        font-size: small; 
+    }
+    
+    .icon{
+        position:relative;
+        margin-left: 175px;
+        top: -40px;
+    }
+    
+
+    
+    .stats{
+        margin: 70px;
+    padding: 20px;
+        text-align: center; 
+        background-color: rgb(37, 36, 34); 
+        border-radius: 10px;
+    }
+    table::after{
+        content: attr(nav);
+        text-align: center;
+        margin: 10px;
+    }
+    div thead{
+        background-color: rgb(8, 7, 6);
+        color: aliceblue;
+    }
+    div tbody{
+        background-color: rgb(221, 185, 142);
+     }
+
+     
+.regform{
+    margin-left: 180px;
+    margin-right: 780px;
+    color: rgb(15, 15, 15);
+    
+}
+
+.boxstyle{
+    top: -300px;
+    width: 750px; 
+    height:1500px;  
+    background-color: rgb(204, 228, 174); 
+    border-radius: 50px;
+    padding:40px; 
+    border: 2px solid rgb(15, 15, 13); 
+}
+.firstname{
+    position:relative;
+    left:60px;
+    font-size: 13px;
+    height: 25px;
+    width: 230px;
+}
+.firstlabel{
+    position: relative;
+    color:black;
+    font-size: 14px;
+    left: 60px;
+}
+.middlename{
+    position:relative;
+    left:300px;
+    top:-24px;
+    font-size: 13px;
+    height: 25px;
+    width: 230px;
+}
+.middlelabel{
+    position: relative;
+    font-size: 14px;
+    left: 370px;
+    top:-25px;
+}
+.lastname{
+    position:relative;
+    left:600px;
+    top:-50px;
+    font-size: 13px;
+    height: 25px;
+    width: 230px;
+}
+.lastlabel{
+    position: relative;
+    font-size: 14px;
+    left: 685px;
+    top:-45px;
+}
+.monthlabel{
+    position: relative;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 60px;
+    bottom: -20px;
+}
+.monthoption{
+    position: relative;
+    left:18px;
+    font-size: 13px;
+    height: 25px;
+}
+.daylabel{
+    position: relative;
+    font-size: 14px;
+    left: 110px;
+    bottom: -20px;
+}
+.dayoption{
+    position:relative;
+    left:80px;
+    width: 80px;
+    font-size: 13px;
+    height: 25px;
+}
+.yearlabel{
+    position: relative;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 180px;
+    bottom: -20px;
+}
+.yearoption{
+    position:relative;
+    width: 80px;
+    left:150px;
+    font-size: 13px;
+    height: 25px;  
+}
+.genderlabel{
+    position: relative;
+    color: rgb(13, 14, 13);
+    font-size: 16px;
+    left: 650px;
+    top: -80px;
+}
+.genderoption{
+    position:relative;
+    left:700px;
+    width: 200px;
+    margin-top: 10px;
+    top:-90px;
+    margin-bottom: -50px;
+    font-size: 13px;
+    height: 25px;
+}
+.streetaddress{
+    position: relative;
+    left:60px;
+    width: 500px;
+    font-size: 13px;
+    height: 25px;  
+}
+.streetaddresslabel{
+    position: relative;
+    font-size: 14px;
+    left: 60px;
+}
+.streetaddressline2{
+    position: relative;
+    left:60px;
+    width: 500px;
+    margin-top: 40px;
+    font-size: 13px;
+    height: 25px;
+}
+.streetaddressline2label{
+    position: relative;
+    left:60px;
+    margin-top: 40px;
+}
+.city{
+    position: relative;
+    width:300px;
+    margin-top: 40px;
+    font-size: 13px;
+    height: 25px;
+}
+.citylabel{
+    position: relative;
+    margin-right: 55px;
+}
+.state{
+    position:relative;
+    left:550px;
+    top:-70px;
+    width: 300px;
+    margin-top: 25px;
+    font-size: 13px;
+    height: 25px;
+}
+.statelabel{
+    position:relative;
+    left:550px;
+    top:-70px;
+}
+.portal{
+    position:relative;
+    top:-20px;
+    width: 500px;
+    margin-top: 15px;
+    font-size: 13px;
+    height: 25px;
+}
+.portallabel{
+    position: relative;
+    top:-20px
+}
+.namestudent{
+    margin-left: 10px;
+}
+.studentemail{
+    position:relative;
+    left:60px;
+    top:-20px;
+    width: 350px;
+    margin-top: 15px;
+    font-size: 13px;
+    height: 25px;
+}
+.studentemaillabel{
+    position: relative;
+    left:60px;
+    top:-20px
+}
+.mobilenumber{
+    position:relative;
+    left:565px;
+    width: 350px;
+    margin-top: 10px;
+    top:-135px;
+    font-size: 13px;
+    height: 25px;
+}
+.mobile_number{
+  position: relative;
+    width: 350px;
+    left: 500px;
+    top: -120px;
+}
+.phonenumber{
+    position:relative;
+    left:60px;
+    top:-100px;
+    width: 350;
+    font-size: 13px;
+    height: 25px;
+}
+.namephone{
+    position: relative;
+    top:-90px
+}
+.worknumber{
+    position:relative;
+    width: 350px;
+    top:-185px;
+    left: 565px;
+    font-size: 13px;
+    height: 25px;
+}
+.nameworknumber{
+  position: relative;
+    left: 500px;
+    top: -180px;
+}
+.company{
+    position:relative;
+    left:60px;
+    width: 350px;
+    margin-top: -160px;
+    font-size: 13px;
+    height: 25px;
+}
+.namecompany{
+    position:relative;
+    top:-155px;
+}
+.namecourses{
+    position:relative;
+    top:-115px;
+}
+.courses{
+    position:relative;
+    left:60px;
+    top:-130px;
+    width: 350px;
+    font-size: 13px;
+    height: 25px;
+}
+.additionalcomments{
+    position:relative;
+    top:-90px;
+}
+.additionalcommentss{
+    position: relative;
+    left:60px;
+    width: 850px;
+    padding: 10px;
+    font-size: 13px;
+    height:200px;
+    top: -95px;
+}
+input[value="Submit Application"]{
+    position:relative; 
+    top: -55px; 
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    opacity: 0.95;
+}
+
+input[value="Clear Fields"]{
+    position: relative; 
+    margin-left: 850px; 
+    top: -80px;
+    height: 30px;
+     background-color:rgb(20, 19, 18);
+      color: aliceblue;
+}
+
+
+fieldset{
+    margin-left: 225px; 
+    margin-top: 50px;
+    background-color:rgb(204, 248, 215); 
+    border-radius: 10px;
+}
+legend{
+    font-weight: bolder; 
+    background-color: rgb(170, 168, 168);
+    opacity: 0.95;
+    margin-left: 200px;
+    
+}
+ 
+input[value="Submit"]{
+    position:relative; 
+    margin-left:70px;
+    background-color:rgb(3, 3, 3);
+     top: 100px;
+     height: 30px;
+      color:white;
+      width: 100px;
+}
+ .progress{
+    margin-left:50px;
+    margin-top:170px;
+ }
+ meter{
+    appearance:auto;
+    margin-top:-10em;
+    height: 30px;
+    width:40em;
+ }
+
+    
